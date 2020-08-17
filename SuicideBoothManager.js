@@ -21,11 +21,6 @@ var main = function() {
 		breakdownCheck()
 		repairedCheck()
 	} )
-
-	var actionSubscription = context.subscribe('interval.day', function(){
-
-		console.log(suicideBoothsIndex)
-	} )
 }
 
 function breakdownCheck() {
