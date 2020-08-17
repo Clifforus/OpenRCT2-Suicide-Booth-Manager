@@ -269,7 +269,7 @@ registerPlugin({
     name: 'Suicide Booth Manager',
     version: '0.0.1',
     authors: ['Clifforus'],
-    type: 'local',
+    type: 'remote',
 
     main: main
 });
